@@ -103,7 +103,7 @@ li a:hover{
 .portfolio-bt {
     margin: 5%;
     margin-left: 0%;
-    width: 90px;
+    width: 150px;
     border-radius: 30px;
     background-color: #ff1967;
     color: white;
@@ -216,6 +216,13 @@ p {
 #cp {
     padding-bottom: 30px;
 }
+
+/* ------------------------------------------ COMETITIVE PROGRAMMING ----------------------------- */
+
+.code_button {
+    width: 90px !important;
+}
+
 
 /* -------------------------------------------- FOOTER ---------------------------------- */
 
