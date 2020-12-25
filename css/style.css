@@ -1,0 +1,237 @@
+/* main image */
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar {
+    background-color:rgba(0,0,0,0.2);
+}
+
+.navbar-nav.ml-auto li a {
+    color: black !important;
+}
+
+li a:hover{
+    background-color:rgba(255, 255, 255, 1) !important;
+}
+
+.nav-item {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.625rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    margin: 0 1rem;
+    margin-top: 0.3125rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.navbar-brand {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    padding-left: 50px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.625rem;
+    letter-spacing: 2px;
+    color: black !important;
+}
+
+.wrapper {
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    background-color:rgba(0,0,0,0);
+}
+
+.container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.main-box {
+    margin-left: 2%;
+    margin-right: -5%;
+}
+
+.title-box {
+    padding-top: 15%;
+    padding-right: 10%;
+    margin-left: 1%;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700px;
+}
+
+.description {
+    font-size: 25px;
+}
+
+.my-logo {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 25px 25px rgba(0,0,0,0.5);
+    filter: grayscale(90%);
+}
+
+.social-icons {
+    padding-top: 20px;
+    padding-left: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+.social-icon {
+    width: auto;
+    height: auto;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.so-icon {
+    width: 30px;
+}
+
+.portfolio-bt {
+    margin: 5%;
+    margin-left: 0%;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #ff1967;
+    color: white;
+}
+
+/* -------------------  ABOUT ----------------------- */
+
+
+.extra-links {
+    color: #173db8;
+}
+
+.about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.card-body {
+    min-height: 215px;
+}
+
+.h4 {
+    font-weight: 700;
+    font-size: 1.714em;
+    line-height: 1.42em;
+    margin-bottom: 15px;
+}
+
+.skill-icons {
+    padding-top: 20px;
+}
+
+/* #skills {
+    background-color:rgba(0,0,0,0.1);
+} */
+
+#about-me{
+    background-color:rgba(0,0,0,0.1);
+}
+
+
+/* ------------------------------  EDUCATION ----------------------- */
+
+.edu {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.edu-name {
+    font-weight: 700;
+    color: #9A9A9A;
+}
+
+.edu-container {
+    padding-top: 30px;
+    background-color:rgba(0,0,0,0.1);
+    padding-bottom: 30px;;
+}
+
+.card-deck {
+    padding-left: 20px;
+    padding-right: 20px;;
+}
+
+.edu-card {
+    box-shadow: 0 25px 25px rgba(0,0,0,0.5);
+}
+
+p {
+    line-height: 1.61em;
+}
+
+.edu-header {
+    padding-top: 60px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #17a2b8;
+}
+
+
+/* -------------------------------- PROJECTS ------------------------------------ */
+
+#project-card {
+    border: 4px solid #17a2b8;
+    border-radius: 5px;
+    min-height: 580px !important;
+    max-height: 580px;
+}
+
+/* #project-card-body {
+    min-height: 250px !important;
+} */
+
+#project-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* -------------------------------------- EXPERIENCE -------------------------- */
+
+.exp {
+    padding-bottom: 20px;
+}
+
+#cp {
+    padding-bottom: 30px;
+}
+
+/* -------------------------------------------- FOOTER ---------------------------------- */
+
+.foot-icon {
+    opacity: 0.6;
+    padding-right: 10px;
+}
+/* 
+#contact {
+    background-color:rgba(0,0,0,0.1);
+} */
+
+.foot-container {
+    padding-bottom: 50px;
+}
+
+.foot-gap {
+    padding-bottom: 30px;
+}
