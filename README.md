@@ -1,7 +1,7 @@
 # Personal-Website
 
 This is my portfolio website.
-
+This is a fully responsive website, do check it in mobile view too.
 # How does it Look Like ?
 
 ![alt text](https://github.com/mandivson/Personal-Website/blob/master/img1.png)
